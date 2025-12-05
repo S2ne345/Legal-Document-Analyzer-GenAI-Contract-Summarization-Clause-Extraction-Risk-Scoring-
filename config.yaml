@@ -1,0 +1,40 @@
+
+app:
+  language: en
+  default_summary_sentences: 8
+  max_summary_chars: 1200
+
+preprocessing:
+  remove_headers_footers: true
+  normalize_whitespace: true
+  fix_hyphenation: true
+
+clauses:
+  enabled:
+    - termination
+    - confidentiality
+    - indemnification
+    - limitation_of_liability
+    - payment_terms
+    - governing_law
+    - dispute_resolution
+    - ip_ownership
+    - force_majeure
+    - assignment
+    - data_protection
+
+risk:
+  thresholds:
+    high: 70
+    medium: 40
+  weights:
+    uncapped_liability: 40
+    unilateral_termination: 25
+    auto_renewal_hidden: 20
+    broad_indemnity: 25
+    weak_data_protection: 30
+report:
+  formats:
+    - json
+    - md
+    - docx
