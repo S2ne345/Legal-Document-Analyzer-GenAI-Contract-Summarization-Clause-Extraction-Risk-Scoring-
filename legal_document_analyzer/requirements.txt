@@ -1,0 +1,14 @@
+
+pymupdf
+python-docx
+pillow
+pytesseract
+spacy
+transformers
+torch
+fastapi
+uvicorn
+streamlit
+pyyaml
+pandas
+numpy

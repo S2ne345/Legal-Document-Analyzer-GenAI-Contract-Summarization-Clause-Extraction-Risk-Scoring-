@@ -1,0 +1,8 @@
+
+acceptable_terms:
+  limitation_of_liability:
+    cap: fees_paid
+  payment_terms:
+    net_days: 30
+  dispute_resolution:
+    preferred: arbitration

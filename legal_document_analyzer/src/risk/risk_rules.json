@@ -1,0 +1,17 @@
+{
+  "uncapped_liability": {
+    "pattern": "(?i)(without\\s+limit|unlimited\\s+liability|no\\s+cap)"
+  },
+  "unilateral_termination": {
+    "pattern": "(?i)(termination\\s+for\\s+convenience\\s+by\\s+(?:company|vendor)|vendor\\s+may\\s+terminate\\s+at\\s+any\\s+time)"
+  },
+  "auto_renewal_hidden": {
+    "pattern": "(?i)(auto\\-?renew|automatic\\s+renewal)"
+  },
+  "broad_indemnity": {
+    "pattern": "(?i)(indemnif\\w+\\s+for\\s+any\\s+and\\s+all|\bbroad\\s+indemnity\b)"
+  },
+  "weak_data_protection": {
+    "pattern": "(?i)(personal\\s+data\\s+.*may\\s+be\\s+shared|no\\s+data\\s+protection\\s+agreement)"
+  }
+}
